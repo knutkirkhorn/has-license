@@ -1,0 +1,24 @@
+{
+  "name": "has-license",
+  "version": "1.0.0",
+  "description": "Check if a repository has a license",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Knutakir/has-license.git"
+  },
+  "keywords": [
+    "check",
+    "for",
+    "license"
+  ],
+  "author": "Knut Kirkhorn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Knutakir/has-license/issues"
+  },
+  "homepage": "https://github.com/Knutakir/has-license#readme"
+}
