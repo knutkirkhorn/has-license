@@ -24,7 +24,7 @@ hasLicense('https://github.com/Knutakir/has-license').then(result => {
 ```
 
 ## API
-### hasLicense([path])
+### hasLicense(path)
 Returns true if the `path` has a license file in it. Otherwise it returns false.
 
 If the `path` contains `github.com` it checks if the GitHub repository has a license.  
