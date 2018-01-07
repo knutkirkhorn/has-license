@@ -29,5 +29,9 @@ Returns true if the `path` has a license file in it. Otherwise it returns false.
 
 If the `path` contains `github.com` it checks if the GitHub repository has a license.  
 
+## Related
+- [gh-repo-has-license](https://github.com/Knutakir/gh-repo-has-license) - Check if a GitHub repository has a license
+- [default-branch](https://github.com/Knutakir/default-branch) - Get the default branch of a GitHub repository
+
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
