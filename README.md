@@ -1,5 +1,6 @@
 # has-license
 > Check if a repository has a license
+Can check both local- and GitHub repositories. 
 
 ## Installation
 ```
