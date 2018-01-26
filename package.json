@@ -22,6 +22,6 @@
   },
   "homepage": "https://github.com/Knutakir/has-license#readme",
   "dependencies": {
-    "gh-repo-has-license": "^1.0.0"
+    "gh-repo-has-license": "^1.1.0"
   }
 }
