@@ -30,6 +30,7 @@ Returns true if the `path` has a license file in it. Otherwise it returns false.
 If the `path` contains `github.com` it checks if the GitHub repository has a license.  
 
 ## Related
+- [has-license-cli](https://github.com/Knutakir/has-license-cli) - CLI for this module
 - [gh-repo-has-license](https://github.com/Knutakir/gh-repo-has-license) - Check if a GitHub repository has a license
 - [default-branch](https://github.com/Knutakir/default-branch) - Get the default branch of a GitHub repository
 
