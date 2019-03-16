@@ -11,8 +11,8 @@ test('returns true for this repo on GitHub', t => {
 });
 
 test('returns true for this repo locally', t => {
-    const url = '.';
-    return m(url).then(result => {
+    const path = __dirname;
+    return m(path).then(result => {
         t.is(result, true);
     }).catch(() => {
         t.fail();
