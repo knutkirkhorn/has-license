@@ -3,7 +3,7 @@ const fs = require('fs');
 const ghRepoHasLicense = require('gh-repo-has-license');
 
 module.exports = path => {
-    return new Promise((resolve, reject) => {
+    return new Promise(resolve => {
         if (path.startsWith('https://github.com/') || path.startsWith('http://github.com/')) {
             if (path.startsWith('http://github.com/')) {
                 // Force https connection
@@ -16,10 +16,11 @@ module.exports = path => {
             });
         } else {
             // Check if the license file exists with `fs.access()`
-            fs.access(path + '/license', 'utf8', (err, data) => {
+            fs.access(path + '/license', 'utf8', err => {
                 if (err) {
                     resolve(false);
                 }
+
                 resolve(true);
             });
         }

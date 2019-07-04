@@ -1,13 +1,14 @@
 import test from 'ava';
-import m from '.';
+import hasLisence from '.';
 
-test('returns true for this repo on GitHub', t => {
+test('returns true for this repo on GitHub', async t => {
     const url = 'https://github.com/Knutakir/has-license';
-    return m(url).then(result => {
+    try {
+        const result = await hasLisence(url);
         t.is(result, true);
-    }).catch(() => {
+    } catch (error) {
         t.fail();
-    });
+    }
 });
 
 /* TODO: this does not work on the CI:
