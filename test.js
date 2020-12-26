@@ -1,5 +1,5 @@
-import test from 'ava';
-import hasLisence from '.';
+const test = require('ava');
+const hasLisence = require('.');
 
 test('returns true for this repo on GitHub', async t => {
     const url = 'https://github.com/Knutakir/has-license';
