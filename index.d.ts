@@ -11,7 +11,7 @@ hasLicense('C:/Users/Knut/Documents/GitHub/btc-value-cli').then(result => {
     // => true
 });
 
-hasLicense('https://github.com/Knutakir/has-license').then(result => {
+hasLicense('https://github.com/knutkirkhorn/has-license').then(result => {
     console.log(result);
     // => true
 });

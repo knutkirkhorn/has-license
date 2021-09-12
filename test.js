@@ -2,7 +2,7 @@ const test = require('ava');
 const hasLisence = require('.');
 
 test('returns true for this repo on GitHub', async t => {
-    const url = 'https://github.com/Knutakir/has-license';
+    const url = 'https://github.com/knutkirkhorn/has-license';
     try {
         const result = await hasLisence(url);
         t.is(result, true);

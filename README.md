@@ -1,4 +1,4 @@
-# has-license [![Build Status](https://travis-ci.org/Knutakir/has-license.svg?branch=main)](https://travis-ci.org/Knutakir/has-license)
+# has-license [![Build Status](https://travis-ci.org/knutkirkhorn/has-license.svg?branch=main)](https://travis-ci.org/knutkirkhorn/has-license)
 > Check if a repository has a license
 
 Can check both local- and GitHub repositories. 
@@ -17,7 +17,7 @@ hasLicense('C:/Users/Knut/Documents/GitHub/btc-value-cli').then(result => {
     // => true
 });
 
-hasLicense('https://github.com/Knutakir/has-license').then(result => {
+hasLicense('https://github.com/knutkirkhorn/has-license').then(result => {
     console.log(result);
     // => true
 });
@@ -30,9 +30,9 @@ Returns true if the `path` has a license file in it. Otherwise it returns false.
 If the `path` contains `github.com` it checks if the GitHub repository has a license.  
 
 ## Related
-- [has-license-cli](https://github.com/Knutakir/has-license-cli) - CLI for this module
-- [gh-repo-has-license](https://github.com/Knutakir/gh-repo-has-license) - Check if a GitHub repository has a license
-- [default-branch](https://github.com/Knutakir/default-branch) - Get the default branch of a GitHub repository
+- [has-license-cli](https://github.com/knutkirkhorn/has-license-cli) - CLI for this module
+- [gh-repo-has-license](https://github.com/knutkirkhorn/gh-repo-has-license) - Check if a GitHub repository has a license
+- [default-branch](https://github.com/knutkirkhorn/default-branch) - Get the default branch of a GitHub repository
 
 ## License
 MIT © [Knut Kirkhorn](LICENSE)
