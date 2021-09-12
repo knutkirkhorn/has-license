@@ -1,4 +1,4 @@
-# has-license [![Build Status](https://travis-ci.org/knutkirkhorn/has-license.svg?branch=main)](https://travis-ci.org/knutkirkhorn/has-license)
+# has-license
 > Check if a repository has a license
 
 Can check both local- and GitHub repositories. 
