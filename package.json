@@ -1,6 +1,6 @@
 {
   "name": "has-license",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Check if a repository has a license",
   "main": "index.js",
   "scripts": {
