@@ -1,6 +1,6 @@
 // eslint-disable-next-line import/no-unresolved
 import test from 'ava';
-import hasLicense from '.';
+import hasLicense from './index.js';
 
 test('returns true for this repo on GitHub', async t => {
 	const url = 'https://github.com/knutkirkhorn/has-license';
