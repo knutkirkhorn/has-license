@@ -1,40 +1,46 @@
 {
-  "name": "has-license",
-  "version": "1.2.1",
-  "description": "Check if a repository has a license",
-  "main": "index.js",
-  "scripts": {
-    "test": "ava && tsd",
-    "lint": "eslint ."
-  },
-  "files": [
-    "index.js",
-    "index.d.ts"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/knutkirkhorn/has-license.git"
-  },
-  "keywords": [
-    "check",
-    "for",
-    "license"
-  ],
-  "author": "Knut Kirkhorn",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/knutkirkhorn/has-license/issues"
-  },
-  "homepage": "https://github.com/knutkirkhorn/has-license#readme",
-  "dependencies": {
-    "gh-repo-has-license": "^1.2.0"
-  },
-  "devDependencies": {
-    "ava": "^3.15.0",
-    "eslint": "^7.24.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-plugin-ava": "^12.0.0",
-    "eslint-plugin-import": "^2.22.1",
-    "tsd": "^0.14.0"
-  }
+	"name": "has-license",
+	"version": "1.2.1",
+	"description": "Check if a repository has a license",
+	"scripts": {
+		"test": "ava && tsd",
+		"lint": "eslint ."
+	},
+	"files": [
+		"index.js",
+		"index.d.ts"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/knutkirkhorn/has-license.git"
+	},
+	"keywords": [
+		"check",
+		"for",
+		"license"
+	],
+	"author": "Knut Kirkhorn",
+	"type": "module",
+	"exports": "./index.js",
+	"types": "./index.d.ts",
+	"engines": {
+		"node": ">=14.16"
+	},
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/knutkirkhorn/has-license/issues"
+	},
+	"homepage": "https://github.com/knutkirkhorn/has-license#readme",
+	"dependencies": {
+		"gh-repo-has-license": "^2.0.0"
+	},
+	"devDependencies": {
+		"ava": "^5.2.0",
+		"eslint": "^8.34.0",
+		"eslint-config-airbnb-base": "^15.0.0",
+		"eslint-plugin-ava": "^14.0.0",
+		"eslint-plugin-import": "^2.27.5",
+		"eslint-plugin-unicorn": "^45.0.2",
+		"tsd": "^0.25.0"
+	}
 }

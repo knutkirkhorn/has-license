@@ -1,14 +1,15 @@
-const test = require('ava');
-const hasLisence = require('.');
+// eslint-disable-next-line import/no-unresolved
+import test from 'ava';
+import hasLicense from '.';
 
 test('returns true for this repo on GitHub', async t => {
-    const url = 'https://github.com/knutkirkhorn/has-license';
-    try {
-        const result = await hasLisence(url);
-        t.is(result, true);
-    } catch (error) {
-        t.fail();
-    }
+	const url = 'https://github.com/knutkirkhorn/has-license';
+	try {
+		const result = await hasLicense(url);
+		t.is(result, true);
+	} catch {
+		t.fail();
+	}
 });
 
 /* TODO: this does not work on the CI:

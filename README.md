@@ -7,23 +7,19 @@ Can check both local- and GitHub repositories.
 ## Installation
 
 ```
-$ npm install has-license
+npm install has-license
 ```
 
 ## Usage
 
 ```js
-const hasLicense = require('has-license');
+import hasLicense from 'has-license';
 
-hasLicense('C:/Users/Knut/Documents/GitHub/btc-value-cli').then(result => {
-    console.log(result);
-    // => true
-});
+console.log(await hasLicense('C:/Users/Knut/Documents/GitHub/btc-value-cli'));
+// => true
 
-hasLicense('https://github.com/knutkirkhorn/has-license').then(result => {
-    console.log(result);
-    // => true
-});
+console.log(await hasLicense('https://github.com/knutkirkhorn/has-license'));
+// => true
 ```
 
 ## API
